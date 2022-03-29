@@ -1,7 +1,7 @@
 {
   "name": "lavacola",
   "version": "0.1.0",
-  "homepage": "https//:nkped.github.io/lavacola.git",
+  "homepage": "https://nkped.github.io/lavacola/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
