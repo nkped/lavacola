@@ -1,4 +1,4 @@
-## Manual for publishing Create-Reac-App on GH Pages ##
+## How to publish Create-React-App on GH Pages ##
 
 **There are two ways of deploying to GHPages.
 First option requires install of gh-pages and deployment fra designated gh-branch, while the second option only requires a folder on main branch named "docs" as publishing source.**
@@ -11,8 +11,6 @@ First option requires install of gh-pages and deployment fra designated gh-branc
 ***#issue:** GH Pages requires you create and push docs-folder to repo to activate. However creating docs-folder before running build in VS Code complicates the mv-command (rename) of build into docs. Remember, build has to be named docs, since docs is publishing source.*
 
 ***#Solution:** Either improve rename-method or activate GH Pages without docs or run build before active og GHPages.*
-
----
 
 ## So, first GHPages site is online. Here is what I did:
 
@@ -34,7 +32,7 @@ First option requires install of gh-pages and deployment fra designated gh-branc
 
 - `mv build docs`
 
-**Page should now be deployed (give it a couple minutes).**
+**Done, page should now be deployed (give it a couple minutes).**
 
 
 
