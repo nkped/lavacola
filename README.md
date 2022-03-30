@@ -1,4 +1,4 @@
-## How to publish Create-React-App on GH Pages ##
+## How to publish Create-React-App on Github Pages ##
 
 **There are two ways of deploying to GHPages.
 First option requires install of gh-pages and deployment fra designated gh-branch, while the second option only requires a folder on main branch named "docs" as publishing source.**
@@ -34,7 +34,7 @@ First option requires install of gh-pages and deployment fra designated gh-branc
 
 **Done, page should now be deployed (give it a couple minutes).**
 
-
+*Original ressourse* https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
 
 ---
 
