@@ -12,7 +12,9 @@ First option requires install of gh-pages and deployment fra designated gh-branc
 
 ***#Solution:** Either improve rename-method or activate GH Pages without docs or run build before active og GHPages.*
 
-***Also,** you might need to initially create EMPTY repo WITHOUT README.md* 
+***Also:*** 
+- You might need to initially create EMPTY repo WITHOUT README.md 
+- CRA is born with git - do not `git init`
 
 ## So, first GHPages site is online. Here is what I did:
 
