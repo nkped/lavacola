@@ -1,12 +1,12 @@
 ## How to publish Create-React-App on Github Pages ##
 
 **There are two ways of deploying to GHPages.
-First option requires install of gh-pages and deployment fra designated gh-branch, while the second option only requires a folder on main branch named "docs" as publishing source.**
+First option requires install of gh-pages (dependency) and deployment from designated gh-branch. The second option only requires a folder on main branch named "docs" as publishing source.**
 
 **Let's go with option 2..**
 
 
-***Note!** *The guide below has one #issue that I will address soon.***
+***Note!** *The guide below has one #issue that I will address soon, but works with a minor work-around***
 
 ***#issue:** GH Pages requires you create and push docs-folder to repo to activate. However creating docs-folder before running build in VS Code complicates the mv-command (rename) of build into docs. Remember, build has to be named docs, since docs is publishing source.*
 
