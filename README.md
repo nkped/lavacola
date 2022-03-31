@@ -38,7 +38,7 @@ First option requires install of gh-pages (dependency) and deployment from desig
 
 **Done! Page should now be deployed (give it a couple minutes).**
 
-*Original ressourse* https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
+*Original ressourse* https://betterprogramming.pub/publish-create-react-app-to-github-pages-the-easy-way-542e864da589
 
 ---
 
