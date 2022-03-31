@@ -36,7 +36,7 @@ First option requires install of gh-pages and deployment fra designated gh-branc
 
 - `mv build docs`
 
-**Done, page should now be deployed (give it a couple minutes).**
+**Done! Page should now be deployed (give it a couple minutes).**
 
 *Original ressourse* https://hackernoon.com/how-to-deploy-a-react-app-to-github-pages
 
