@@ -43,21 +43,37 @@ First option requires install of gh-pages (dependency) and deployment from desig
 
 ---
 
-## Additional features - my level
+## Next Steps
 
-**Using Global Variables**
+
+### First Steps
+
+**Build very simple components**
+
+
+**When using / check if global variables**
 I don't want to use those, and eslint will complain if I do. If the following works:
 `const $ = window.$;`   (exsplicitly tells eslint I want global variable)
 ..then change your variable.
 
-## React Bootstrap / React Strap
+
+## Second Steps
+
+**React Bootstrap / React Strap
+
+**React Flow seems doable and usefull.**
+Flow, like Typescript is a static type chekker. But Flow seems the simplest (is a dependence - not its own prog. lang.)
+Flow vs Typescript, blog:
+https://www.scalablepath.com/javascript/flow-vs-typescript
+CRA-guide
+https://create-react-app.dev/docs/adding-typescript
 
 **The latter being a liteweight version, that should be considered for early implementation**
 https://create-react-app.dev/docs/adding-bootstrap
 
 
-## Additional features - next level
-**The following is rom:** https://create-react-app.dev/docs/
+## Further Steps
+**The following is from:** https://create-react-app.dev/docs/
 
 **Format staged code automatically for commits with Prettier**
 https://create-react-app.dev/docs/setting-up-your-editor/
@@ -68,9 +84,7 @@ Develop components and see all their states in isolation from your app.
 
 **Using HTTPS in Development, fx when working with API serving https**
 https://create-react-app.dev/docs/
-
 To do this, set the HTTPS environment variable to true, then start the dev server as usual with `npm start`:
-
 
 
 ## Some links for my own convenience
