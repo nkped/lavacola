@@ -6,7 +6,8 @@ First option requires install of gh-pages (dependency) and deployment from desig
 **Let's go with option 2..**
 
 
-***Note!** *The guide below has one #issue that I will address soon, but works with a minor work-around***
+***Note!** *The guide below has one #issue that I will address soon, but works with a minor work-around.***
+***Note!** *At the bottom of this guide, you find suggested/nescesary features not yet installed.*** 
 
 ***#issue:** GH Pages requires you create and push docs-folder to repo to activate. However creating docs-folder before running build in VS Code complicates the mv-command (rename) of build into docs. Remember, build has to be named docs, since docs is publishing source.*
 
@@ -41,6 +42,35 @@ First option requires install of gh-pages (dependency) and deployment from desig
 *Original ressourse* https://betterprogramming.pub/publish-create-react-app-to-github-pages-the-easy-way-542e864da589
 
 ---
+
+## Additional features - my level
+
+**Using Global Variables**
+I don't want to use those, and eslint will complain if I do. If the following works:
+`const $ = window.$;`   (exsplicitly tells eslint I want global variable)
+..then change your variable.
+
+## React Bootstrap / React Strap
+
+**The latter being a liteweight version, that should be considered for early implementation**
+https://create-react-app.dev/docs/adding-bootstrap
+
+
+## Additional features - next level
+**The following is rom:** https://create-react-app.dev/docs/
+
+**Format staged code automatically for commits with Prettier**
+https://create-react-app.dev/docs/setting-up-your-editor/
+
+**Developing Components in Isolation with Storybook**
+https://create-react-app.dev/docs/developing-components-in-isolation
+Develop components and see all their states in isolation from your app.
+
+**Using HTTPS in Development, fx when working with API serving https**
+https://create-react-app.dev/docs/
+
+To do this, set the HTTPS environment variable to true, then start the dev server as usual with `npm start`:
+
 
 
 ## Some links for my own convenience
