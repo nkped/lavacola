@@ -51,36 +51,37 @@ First option requires install of gh-pages (dependency) and deployment from desig
 **Build very simple components**
 
 
-**When using / check if global variables**
-I don't want to use those, and eslint will complain if I do. If the following works:
+**Failing or global variables**
+Eslint will complain about global variables. If the following will apeace eslint:
 `const $ = window.$;`   (exsplicitly tells eslint I want global variable)
-..then change your variable.
+..then variable is global (and should be changed).
 
 
 ## Second Steps
 
-**React Bootstrap / React Strap
+**React Bootstrap / React Strap**
+The latter being a lightweight version, it should be considered for early implementation
+https://create-react-app.dev/docs/adding-bootstrap
 
 **React Flow seems doable and usefull.**
-Flow, like Typescript is a static type chekker. But Flow seems the simplest (is a dependence - not its own prog. lang.)
+Flow, like Typescript is a static type chekker. But Flow seems the simplest (is a dependency - not its own prog. lang.)
 Flow vs Typescript, blog:
 https://www.scalablepath.com/javascript/flow-vs-typescript
 CRA-guide
 https://create-react-app.dev/docs/adding-typescript
 
-**The latter being a liteweight version, that should be considered for early implementation**
-https://create-react-app.dev/docs/adding-bootstrap
+
 
 
 ## Further Steps
-**The following is from:** https://create-react-app.dev/docs/
 
 **Format staged code automatically for commits with Prettier**
 https://create-react-app.dev/docs/setting-up-your-editor/
 
-**Developing Components in Isolation with Storybook**
+
+**Develope components in isolation with Storybook**
 https://create-react-app.dev/docs/developing-components-in-isolation
-Develop components and see all their states in isolation from your app.
+
 
 **Using HTTPS in Development, fx when working with API serving https**
 https://create-react-app.dev/docs/
@@ -90,13 +91,10 @@ To do this, set the HTTPS environment variable to true, then start the dev serve
 ## Some links for my own convenience
 
 
-
 ### Making a Progressive Web App
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### `npm run build` fails to minify
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
