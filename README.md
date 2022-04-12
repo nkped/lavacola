@@ -43,7 +43,14 @@ First option requires install of gh-pages (dependency) and deployment from desig
 
 ---
 
+
 ## Next Steps
+
+**Research ressources**
+- https://reactjs.org/docs/create-a-new-react-app.html
+- https://create-react-app.dev/docs/getting-started
+- https://dev.to
+- https://reactstrap.github.io/?path=/docs
 
 
 ### First Steps
