@@ -27,7 +27,7 @@ First option requires install of gh-pages (dependency) and deployment from desig
 
 - `git add .`
 
-- `git commit -a -m "commit message"`
+- `git commit -a -m "Add docs/"`
 
 - `npm run build`
 
