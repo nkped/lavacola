@@ -33,7 +33,7 @@ First option requires install of gh-pages (dependency) and deployment from desig
 
 **NB! Next, delete (empty) docs-folder temporarily. Otherwise, when you attemt to rename build-folder to "docs" using mv-command, build will end up nesting in docs (because docs already exists) - and that will break deployment.**
 
-- `rm -fr docs`
+- `rm -rf docs`
 
 - `mv build docs`
 
